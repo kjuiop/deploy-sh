@@ -12,4 +12,7 @@ update_apt:
 init_password:
 	sudo passwd root
 
+docker_install:
+	./docker/docker_install.sh
+
 
