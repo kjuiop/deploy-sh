@@ -13,7 +13,7 @@ update_source:
 	git pull origin main
 
 give_chmod:
-	chmod +x ./ubuntu/*.sh
+	chmod +x /home/ubuntu/deploy-sh
 
 init_password:
 	sudo passwd root
