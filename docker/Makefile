@@ -7,6 +7,9 @@ mysql_start:
 	./mysql/mysql_install.sh
 	./mysql/mysql_start.sh
 
+mysql_exec:
+	./mysql/mysql_exec.sh
+
 give_chmod:
 	sudo chmod +x ./jenkins/*.sh
 	sudo chmod +x ./mysql/*.sh
