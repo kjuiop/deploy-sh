@@ -10,9 +10,13 @@ mysql_start:
 mysql_exec:
 	./mysql/mysql_exec.sh
 
+postgresql_install:
+	./postgresql/postgresql_install.sh
+
 give_chmod:
 	sudo chmod +x ./jenkins/*.sh
 	sudo chmod +x ./mysql/*.sh
+	sudo chmod +x ./postgresql/*.sh
 
 
 
