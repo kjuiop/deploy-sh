@@ -15,7 +15,7 @@ services:
       - sonarqube_logs:/opt/sonarqube/logs
     ports:
       # 소나큐브의 defaulut 포트는 9000입니다. http 기본 포트로 접속하기위해 들어가면 화면을 보이게 하기 위해 호스트 포트는 80으로 설정
-      - "80:9000"
+      - "9000:9000"
   db: #postgres DB 설치
     image: postgres:12
     environment:
